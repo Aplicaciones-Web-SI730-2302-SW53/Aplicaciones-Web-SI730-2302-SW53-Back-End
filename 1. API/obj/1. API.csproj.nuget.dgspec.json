@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/1. API.csproj": {}
+  },
+  "projects": {
+    "/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/1. API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/1. API.csproj",
+        "projectName": "1. API",
+        "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/1. API.csproj",
+        "packagesPath": "/Users/naldo_reupo-musayon/.nuget/packages/",
+        "outputPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/naldo_reupo-musayon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/2. Domain.csproj": {
+                "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/2. Domain.csproj"
+              },
+              "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj": {
+                "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/2. Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/2. Domain.csproj",
+        "projectName": "2. Domain",
+        "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/2. Domain.csproj",
+        "packagesPath": "/Users/naldo_reupo-musayon/.nuget/packages/",
+        "outputPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/naldo_reupo-musayon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj": {
+                "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj",
+        "projectName": "3. Data",
+        "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj",
+        "packagesPath": "/Users/naldo_reupo-musayon/.nuget/packages/",
+        "outputPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/naldo_reupo-musayon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

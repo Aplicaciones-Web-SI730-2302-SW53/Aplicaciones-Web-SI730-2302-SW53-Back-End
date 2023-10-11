@@ -1,0 +1,12 @@
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/bin/Debug/net7.0/3. Data.deps.json
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/bin/Debug/net7.0/3. Data.dll
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/bin/Debug/net7.0/3. Data.pdb
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/obj/Debug/net7.0/3. Data.csproj.AssemblyReference.cache
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/obj/Debug/net7.0/3. Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/obj/Debug/net7.0/3. Data.AssemblyInfoInputs.cache
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/obj/Debug/net7.0/3. Data.AssemblyInfo.cs
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/obj/Debug/net7.0/3. Data.csproj.CoreCompileInputs.cache
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/obj/Debug/net7.0/3. Data.dll
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/obj/Debug/net7.0/refint/3. Data.dll
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/obj/Debug/net7.0/3. Data.pdb
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/obj/Debug/net7.0/ref/3. Data.dll

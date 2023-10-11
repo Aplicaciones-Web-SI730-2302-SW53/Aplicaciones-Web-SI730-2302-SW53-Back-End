@@ -1,0 +1,15 @@
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/bin/Debug/net7.0/2. Domain.deps.json
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/bin/Debug/net7.0/2. Domain.dll
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/bin/Debug/net7.0/2. Domain.pdb
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/bin/Debug/net7.0/3. Data.dll
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/bin/Debug/net7.0/3. Data.pdb
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/obj/Debug/net7.0/2. Domain.csproj.AssemblyReference.cache
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/obj/Debug/net7.0/2. Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/obj/Debug/net7.0/2. Domain.AssemblyInfoInputs.cache
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/obj/Debug/net7.0/2. Domain.AssemblyInfo.cs
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/obj/Debug/net7.0/2. Domain.csproj.CoreCompileInputs.cache
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/obj/Debug/net7.0/2. Domain.csproj.CopyComplete
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/obj/Debug/net7.0/2. Domain.dll
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/obj/Debug/net7.0/refint/2. Domain.dll
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/obj/Debug/net7.0/2. Domain.pdb
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/obj/Debug/net7.0/ref/2. Domain.dll

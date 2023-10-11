@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "2. Domain/1.0.0": {
+        "runtime": {
+          "2. Domain.dll": {}
+        }
+      },
+      "3. Data/1.0.0": {
+        "runtime": {
+          "3. Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "2. Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "3. Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
