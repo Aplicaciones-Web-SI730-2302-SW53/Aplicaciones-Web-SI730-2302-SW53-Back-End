@@ -1,9 +1,11 @@
+using _3._Data.Model;
+
 namespace _3._Data;
 
 public interface ITutorialData
 {
-    string GetById(int id);
-    string[] GetAll();
+    Tutorial GetById(int id);
+    List<Tutorial> GetAll();
 
     bool Create(string name);
 }

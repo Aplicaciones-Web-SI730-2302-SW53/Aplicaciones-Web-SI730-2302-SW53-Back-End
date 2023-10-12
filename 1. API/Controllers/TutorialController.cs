@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using _2._Domain;
 using _3._Data;
+using _3._Data.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,14 +25,14 @@ namespace _1._API.Controllers
         
         // GET: api/Tutorial
         [HttpGet]
-        public IEnumerable<string> Get()
+        public List<Tutorial> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _tutorialData.GetAll();
         }
 
         // GET: api/Tutorial/5
         [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
+        public Tutorial Get(int id)
         {
            //TutorialSQLData tutorialSqlData = new TutorialSQLData();
            //TutorialOracleData tutorialSqOracleData = new TutorialOracleData();

@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "LRd68XbOVERHGMtnCGkai6ZfU6KUTRNGT8MQ0XvKS0gx+oYSZyeZ1s+fFoPj0R13Mazjr8/o9SvdJxRbwNWoww==",
+  "dgSpecHash": "YWO44wH4rHmVty4DO91JBq22tmPBLLbNzsvJVYoDNWSX8FpdXBeQuday5Mow3Hqy+opfYiBxerQjIPv5Vikz5g==",
   "success": true,
   "projectFilePath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/2. Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.entityframeworkcore/7.0.12/microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.12/microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.12/microsoft.entityframeworkcore.analyzers.7.0.12.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.2/microsoft.entityframeworkcore.relational.7.0.2.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/mysqlconnector/2.2.5/mysqlconnector.2.2.5.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/pomelo.entityframeworkcore.mysql/7.0.0/pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -226,3 +226,8 @@
 /Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/obj/Debug/net7.0/1. API.pdb
 /Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/obj/Debug/net7.0/1. API.genruntimeconfig.cache
 /Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/obj/Debug/net7.0/ref/1. API.dll
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/bin/Debug/net7.0/MySqlConnector.dll
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.dll
