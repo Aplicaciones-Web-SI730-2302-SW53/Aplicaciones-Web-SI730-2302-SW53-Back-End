@@ -2,11 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using _1._API.Request;
 using _2._Domain;
 using _3._Data;
 using _3._Data.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace _1._API.Controllers
 {
@@ -16,7 +18,6 @@ namespace _1._API.Controllers
     {
         private ITutorialData _tutorialData;
         private ITutorialDomain _tutorialDomain;
-
         public TutorialController(ITutorialData tutorialData,ITutorialDomain tutorialDomain)
         {
             _tutorialData = tutorialData;
@@ -42,23 +43,53 @@ namespace _1._API.Controllers
 
         // POST: api/Tutorial
         [HttpPost]
-        public bool Post([FromBody] string value)
+        public IActionResult Post([FromBody] TutorialRequest request)
         {
            // TutorialDomain tutorialDomain = new TutorialDomain();
-            return _tutorialDomain.Create(value);
+           // mapeo  Obje API > Obj data
+
+     
+           
+           if (ModelState.IsValid)
+           {
+               Tutorial tutorial = new Tutorial()
+               {
+                   Title = request.Title,
+                   Author = request.Author,
+                   Year = request.Year,
+                   CategoryId = request.CategoryId
+               };
+               
+               return Ok( _tutorialDomain.Create(tutorial));
+           }
+           else
+           {
+               return BadRequest();
+           }
+           
         }
 
         // PUT: api/Tutorial/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public bool Put(int id, [FromBody] TutorialRequest request)
         {
-            
+            Tutorial tutorial = new Tutorial()
+            {
+                Title = request.Title,
+                Author = request.Author,
+                Year = request.Year,
+                CategoryId = request.CategoryId
+            };
+           
+           
+            return _tutorialDomain.Update(tutorial,id);
         }
 
         // DELETE: api/Tutorial/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public bool Delete(int id)
         {
+            return _tutorialDomain.Delete(id);
         }
     }
 }

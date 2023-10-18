@@ -32,7 +32,6 @@ builder.Services.AddDbContext<LearningCenterBD>(
         );
     });
 
-
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())

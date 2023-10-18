@@ -5,4 +5,6 @@ public class Category :ModelBase
     public string Name { get; set; }
     public string Description { get; set; }
     public string LongDescription { get; set; }
+    
+    private List<Tutorial> Tutorials { get; set; }
 }

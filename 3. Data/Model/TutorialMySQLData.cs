@@ -13,16 +13,77 @@ public class TutorialMySQLData : ITutorialData
     
     public Tutorial GetById(int id)
     {
-       return _learningCenterBd.Tutorials.Where(t => t.Id == id).First();
+       return _learningCenterBd.Tutorials.Where(t => t.Id == id && t.IsActive).First();
+    }
+
+    public Tutorial GetByTitle(string title)
+    {
+        return _learningCenterBd.Tutorials.Where(t => t.Title ==title && t.IsActive).FirstOrDefault();
     }
 
     public List<Tutorial> GetAll()
     {
-        return _learningCenterBd.Tutorials.ToList();
+        return _learningCenterBd.Tutorials.Where(t => t.IsActive).ToList();
     }
 
-    public bool Create(string name)
+    public bool Create(Tutorial tutorial)
     {
-        throw new NotImplementedException();
+        try
+        {
+            _learningCenterBd.Tutorials.Add(tutorial);
+            _learningCenterBd.SaveChanges();
+            return true;
+        }
+        catch (Exception error)
+        {
+            //Logear
+            return false;
+        }
+    }
+
+    public bool Update(Tutorial tutorial, int id)
+    {    try
+        {
+            var tutorialToBeUpdated = _learningCenterBd.Tutorials.Where(t => t.Id == id).First();
+
+            tutorialToBeUpdated.Title = tutorial.Title;
+            tutorialToBeUpdated.Author = tutorial.Author;
+            tutorialToBeUpdated.Year = tutorial.Year;
+            tutorialToBeUpdated.CategoryId = tutorial.CategoryId;
+            
+            tutorialToBeUpdated.DateUpdate = DateTime.Now;
+
+            _learningCenterBd.Tutorials.Update(tutorialToBeUpdated);
+            _learningCenterBd.SaveChanges();
+            
+            return true;
+        }
+        catch (Exception error)
+        {
+            //Logear
+            return false;
+        }
+    }
+
+    public bool Delete(int id)
+    {  try
+        {
+            var tutorialToBeUpdated = _learningCenterBd.Tutorials.Where(t => t.Id == id).First();
+            
+            tutorialToBeUpdated.DateUpdate = DateTime.Now;
+            tutorialToBeUpdated.IsActive = false;
+
+            //_learningCenterBd.Tutorials.Remove(tutorialToBeUpdated);/// ELimina física
+            
+            _learningCenterBd.Tutorials.Update(tutorialToBeUpdated);
+            _learningCenterBd.SaveChanges();
+            
+            return true;
+        }
+        catch (Exception error)
+        {
+            //Logear
+            return false;
+        }
     }
 }
