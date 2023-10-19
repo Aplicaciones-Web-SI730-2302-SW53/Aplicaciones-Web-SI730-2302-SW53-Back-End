@@ -30,9 +30,9 @@ namespace _1._API.Controllers
         
         // GET: api/Tutorial
         [HttpGet]
-        public List<TutorialResponse> Get()
+        public async Task<List<TutorialResponse>> GetAsync()
         {
-            var tutorials=  _tutorialData.GetAll();
+            var tutorials= await _tutorialData.GetAllAsync();
              
              var response = _mapper.Map<List<Tutorial>, List<TutorialResponse>>(tutorials);
 

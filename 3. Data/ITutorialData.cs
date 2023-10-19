@@ -6,7 +6,7 @@ public interface ITutorialData
 {
     Tutorial GetById(int id);
     Tutorial GetByTitle(string title);
-    List<Tutorial> GetAll();
+    Task<List<Tutorial>> GetAllAsync();
 
     bool Create(Tutorial tutorial);
     bool Update(Tutorial tutorial,int id);

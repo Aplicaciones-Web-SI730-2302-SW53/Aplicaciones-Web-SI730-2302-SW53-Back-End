@@ -1,4 +1,5 @@
 using _3._Data.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace _3._Data.Model;
 
@@ -13,7 +14,9 @@ public class TutorialMySQLData : ITutorialData
     
     public Tutorial GetById(int id)
     {
-       return _learningCenterBd.Tutorials.Where(t => t.Id == id && t.IsActive).First();
+            
+        return _learningCenterBd.Tutorials.Where(t => t.Id == id && t.IsActive).First();
+
     }
 
     public Tutorial GetByTitle(string title)
@@ -21,9 +24,9 @@ public class TutorialMySQLData : ITutorialData
         return _learningCenterBd.Tutorials.Where(t => t.Title ==title && t.IsActive).FirstOrDefault();
     }
 
-    public List<Tutorial> GetAll()
+    public async Task<List<Tutorial>> GetAllAsync()
     {
-        return _learningCenterBd.Tutorials.Where(t => t.IsActive).ToList();
+        return await _learningCenterBd.Tutorials.Where(t => t.IsActive).ToListAsync();
     }
 
     public bool Create(Tutorial tutorial)
