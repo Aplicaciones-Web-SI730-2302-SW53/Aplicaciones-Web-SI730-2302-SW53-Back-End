@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "D7+ZIElOiPF/kxqk6euUk7MDcMdQM22mlOWRLkVpsnYKpTIjT5t7VHXQL/7Px9Q4Tf/4cp3exxUSFcDkppogdg==",
+  "dgSpecHash": "KheLBvjn1A8cmi1V2nK5hnvf+nMppSvsGTrOfk2uHmDLIiek8G/VLwqtcNyaETYGmWo1mRiPicw77+0scih84A==",
   "success": true,
   "projectFilePath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj",
   "expectedPackageFiles": [
+    "/Users/naldo_reupo-musayon/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.entityframeworkcore/7.0.12/microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
     "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.12/microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",
     "/Users/naldo_reupo-musayon/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.12/microsoft.entityframeworkcore.analyzers.7.0.12.nupkg.sha512",

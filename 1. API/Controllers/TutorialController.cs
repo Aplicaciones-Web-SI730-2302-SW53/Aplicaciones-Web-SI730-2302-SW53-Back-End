@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using _1._API.Request;
+using _1._API.Response;
 using _2._Domain;
 using _3._Data;
 using _3._Data.Model;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -18,17 +20,23 @@ namespace _1._API.Controllers
     {
         private ITutorialData _tutorialData;
         private ITutorialDomain _tutorialDomain;
-        public TutorialController(ITutorialData tutorialData,ITutorialDomain tutorialDomain)
+        private IMapper _mapper;
+        public TutorialController(ITutorialData tutorialData,ITutorialDomain tutorialDomain,IMapper mapper)
         {
             _tutorialData = tutorialData;
             _tutorialDomain = tutorialDomain;
+            _mapper = mapper;
         }
         
         // GET: api/Tutorial
         [HttpGet]
-        public List<Tutorial> Get()
+        public List<TutorialResponse> Get()
         {
-            return _tutorialData.GetAll();
+            var tutorials=  _tutorialData.GetAll();
+             
+             var response = _mapper.Map<List<Tutorial>, List<TutorialResponse>>(tutorials);
+
+             return response;
         }
 
         // GET: api/Tutorial/5
@@ -47,18 +55,18 @@ namespace _1._API.Controllers
         {
            // TutorialDomain tutorialDomain = new TutorialDomain();
            // mapeo  Obje API > Obj data
-
-     
            
            if (ModelState.IsValid)
            {
-               Tutorial tutorial = new Tutorial()
+              /* Tutorial tutorial = new Tutorial()
                {
                    Title = request.Title,
                    Author = request.Author,
                    Year = request.Year,
                    CategoryId = request.CategoryId
-               };
+               };*/
+
+              var tutorial = _mapper.Map<TutorialRequest, Tutorial>(request);
                
                return Ok( _tutorialDomain.Create(tutorial));
            }

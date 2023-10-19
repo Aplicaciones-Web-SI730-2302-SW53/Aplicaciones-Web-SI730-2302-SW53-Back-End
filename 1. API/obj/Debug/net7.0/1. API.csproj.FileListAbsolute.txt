@@ -231,3 +231,5 @@
 /Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/bin/Debug/net7.0/MySqlConnector.dll
 /Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/bin/Debug/net7.0/AutoMapper.dll
+/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
