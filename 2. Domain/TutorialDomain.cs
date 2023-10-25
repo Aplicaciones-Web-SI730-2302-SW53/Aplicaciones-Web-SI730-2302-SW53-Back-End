@@ -14,6 +14,9 @@ public class TutorialDomain :ITutorialDomain
     
     public bool Create(Tutorial tutorial)
     {
+        if (tutorial.Year < 2021) throw new Exception("Year have to be more than 2021");
+        
+        
         var existingTutitorial = _tutorialData.GetByTitle(tutorial.Title);
 
         if (existingTutitorial == null)
