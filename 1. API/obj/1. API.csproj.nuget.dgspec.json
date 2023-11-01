@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/1. API.csproj": {}
+    "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/1. API/1. API.csproj": {}
   },
   "projects": {
-    "/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/1. API.csproj": {
+    "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/1. API/1. API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/1. API.csproj",
+        "projectUniqueName": "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/1. API/1. API.csproj",
         "projectName": "1. API",
-        "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/1. API.csproj",
+        "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/1. API/1. API.csproj",
         "packagesPath": "/Users/naldo_reupo-musayon/.nuget/packages/",
-        "outputPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/obj/",
+        "outputPath": "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/1. API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/naldo_reupo-musayon/.nuget/NuGet/NuGet.Config"
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/2. Domain.csproj": {
-                "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/2. Domain.csproj"
+              "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/2. Domain/2. Domain.csproj": {
+                "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/2. Domain/2. Domain.csproj"
               },
-              "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj": {
-                "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj"
+              "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/3. Data/3. Data.csproj": {
+                "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/3. Data/3. Data.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/2. Domain.csproj": {
+    "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/2. Domain/2. Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/2. Domain.csproj",
+        "projectUniqueName": "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/2. Domain/2. Domain.csproj",
         "projectName": "2. Domain",
-        "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/2. Domain.csproj",
+        "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/2. Domain/2. Domain.csproj",
         "packagesPath": "/Users/naldo_reupo-musayon/.nuget/packages/",
-        "outputPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/2. Domain/obj/",
+        "outputPath": "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/2. Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/naldo_reupo-musayon/.nuget/NuGet/NuGet.Config"
@@ -122,8 +122,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj": {
-                "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj"
+              "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/3. Data/3. Data.csproj": {
+                "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/3. Data/3. Data.csproj"
               }
             }
           }
@@ -157,14 +157,14 @@
         }
       }
     },
-    "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj": {
+    "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/3. Data/3. Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj",
+        "projectUniqueName": "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/3. Data/3. Data.csproj",
         "projectName": "3. Data",
-        "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/3. Data.csproj",
+        "projectPath": "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/3. Data/3. Data.csproj",
         "packagesPath": "/Users/naldo_reupo-musayon/.nuget/packages/",
-        "outputPath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/3. Data/obj/",
+        "outputPath": "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/3. Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/naldo_reupo-musayon/.nuget/NuGet/NuGet.Config"

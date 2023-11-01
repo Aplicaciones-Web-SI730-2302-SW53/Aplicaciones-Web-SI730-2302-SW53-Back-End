@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c39WfarEBKmp2dKSS/Y6QKItyveaNV+/Ql+4RRPeoFGi5YUkN1Z6jrjZShUNu/m4vMBcIrO3eNmI9euLcckyyg==",
+  "dgSpecHash": "UvQVuFVpNcMSjYQwBV3BGbmzmh6KZESLTWMp5yla1E0EXHsvkX82WVv3BKOK+0oAawHxLqwFKF+ck/ElrOdWoQ==",
   "success": true,
-  "projectFilePath": "/Users/naldo_reupo-musayon/RiderProjects/learning-center/1. API/1. API.csproj",
+  "projectFilePath": "/Users/naldo_reupo-musayon/RiderProjects/Aplicaciones-Web-SI730-2302-SW53-Back-End/1. API/1. API.csproj",
   "expectedPackageFiles": [
     "/Users/naldo_reupo-musayon/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/naldo_reupo-musayon/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

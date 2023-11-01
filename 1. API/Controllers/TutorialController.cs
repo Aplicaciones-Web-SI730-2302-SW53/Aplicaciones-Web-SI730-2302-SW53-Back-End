@@ -29,7 +29,11 @@ namespace _1._API.Controllers
         }
         
         // GET: api/Tutorial
+        /// <summary>
+        /// Get all tutorials without any filters
+        /// </summary>
         [HttpGet]
+        [Produces("application/json")]
         public async Task<List<TutorialResponse>> GetAsync()
         {
             var tutorials= await _tutorialData.GetAllAsync();
@@ -50,31 +54,46 @@ namespace _1._API.Controllers
         }
 
         // POST: api/Tutorial
+        /// <response code="200">Returns the newly created tutorial</response>
+        /// <response code="400">If the tutorial is null </response>
+        /// <response code="500">Unexcpeted error , maybe database is down </response>
         [HttpPost]
+        /// <response code="20">Returns the newly created tutorial</response>
+        /// <response code="400">If the tutotial is null or fields required ar empty</response>
+        /// <response code="500">If the tutotial is null or fields required ar empty</response>
+
         public IActionResult Post([FromBody] TutorialRequest request)
         {
            // TutorialDomain tutorialDomain = new TutorialDomain();
            // mapeo  Obje API > Obj data
-           
-           if (ModelState.IsValid)
-           {
-              /* Tutorial tutorial = new Tutorial()
-               {
-                   Title = request.Title,
-                   Author = request.Author,
-                   Year = request.Year,
-                   CategoryId = request.CategoryId
-               };*/
 
-              var tutorial = _mapper.Map<TutorialRequest, Tutorial>(request);
-               
-               return Ok( _tutorialDomain.Create(tutorial));
-           }
-           else
+           try
            {
-               return BadRequest();
+               if (ModelState.IsValid)
+               {
+                   /* Tutorial tutorial = new Tutorial()
+                    {
+                        Title = request.Title,
+                        Author = request.Author,
+                        Year = request.Year,
+                        CategoryId = request.CategoryId
+                    };*/
+
+                   var tutorial = _mapper.Map<TutorialRequest, Tutorial>(request);
+
+                   return Ok(_tutorialDomain.Create(tutorial));
+                   //return Created("/post",_tutorialDomain.Create(tutorial));
+               }
+               else
+               {
+                   return BadRequest();
+               }
            }
-           
+           catch (Exception e)
+           {
+               return StatusCode(500);
+           }
+
         }
 
         // PUT: api/Tutorial/5
